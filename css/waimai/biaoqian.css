@@ -1,0 +1,92 @@
+@import url("../base.css");
+.l{
+	height: 16vw;
+	width: 100%;
+	background: #dfdfdf;
+}
+.fixed{
+	height: 13.333333vw;
+	padding-top: 1.2vw;
+	background: #ffffff;
+	position: fixed;
+	bottom: 0;
+	left:0;
+	z-index: 9999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.fixed1{
+	padding: 0 1vw;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fixed a{
+	display: block;
+	flex:1;
+	text-align: center;
+	color:#666;
+}
+.fixed a i{
+	font-size: .4rem;
+	display: block;
+}
+.fixed a span{
+	font-size: .18rem;
+	display: block;
+}
+.fixed-top{
+	width: 100%;
+	height: 1.28rem;
+	background: #0193ff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 100;
+}
+/*.sousuo-fixed{
+	z-index: 999;
+	position: fixed;
+	left: 0;
+	top: 0;
+}*/
+.zd{
+	background: #fff;
+	display: block;
+	position: fixed;
+	font-size: .6rem;
+	bottom: 20vw;
+	right: 4vw;
+	display: none;
+	border-radius: 50%;
+}
+.fixed-dd{
+	display: flex;
+	justify-content: space-between;
+	height: 11.733333vw;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(90deg,#0af,#0085ff);
+	font-size: .52rem;
+	color: #fffff;
+	align-items: center;
+}
+.fixed-dd span{
+	display: block;
+	color: #fff;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+}
+.fixed-dd i{
+	margin-left: 4vw;
+	display: block;
+	color: #fff;
+}

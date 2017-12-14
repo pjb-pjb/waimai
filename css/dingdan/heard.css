@@ -1,0 +1,118 @@
+@import url("../base.css");		
+body{
+	background: #f5f5f5;
+}
+
+.dingdan{
+	width: 100%;
+}
+.dingdan1{
+	margin-top: 2.666667vw;
+	background: #fff;
+	padding: 3.733333vw 0 0 4vw;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.dingdan1 .top>img{
+	displa: ;y: block;
+	width: 8.533333vw;
+	height: 8.533333vw;
+	border-radius: .5333333vw;
+	border: 1px solid #eee;
+	margin-right: 2.666667vw;
+}
+.dingdan1 .top{
+	display: flex;
+	justify-content: flex-start;
+}
+.dingdan1 .top .right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+	flex-grow: 1;
+	/*background: red;*/
+}
+.dingdan1 .top .right .shang{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.dingdan1 .top .name{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.dingdan1 .top .name p{
+	font-size: .44rem;
+	color: #353535;
+}
+.dingdan1 .top .name i{
+	color: #969696;
+	font-size: .22rem;
+	margin-left: 1.333333vw;
+	display: block;
+}
+.dingdan1 .top .name~p{
+	color: #363636;
+	font-size: .34rem;
+	margin-right: 3.466667vw;
+}
+.dingdan1 .time{
+	overflow: hidden;
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	font-size: .24rem;
+	color: #9a9a9a;
+}
+.dingdan1 .price{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 12vw;
+}
+.dingdan1 .price>p{
+	font-size: .32rem;
+	color: #737373;
+}
+.dingdan1 .price>i{
+	font-weight: bold;
+	color: #333;
+	font-size: .26rem;
+	margin-right: 3.466667vw;
+}
+.dingdan1 .bottom{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	font-size: .32rem;
+	margin-right: 3.466667vw;
+}
+.dingdan1 .bottom button{
+	padding: 1vw 1.8vw;
+	border: 1px solid;
+	margin-left: 2vw;
+	background-color: #fff;
+	margin-bottom: 3vw;
+	border-radius: .533333vw;
+}
+.dingdan1 .bottom button:first-of-type{
+	color: #2395ff;
+	border-color: #2395ff;
+}
+.dingdan1 .bottom button:last-of-type{
+	color: #ff5339;
+	border-color: #ff5339;
+}
+.dingdan1>span{
+	height: 1px;
+	background: #ebebeb;
+	margin: 3vw 0;
+}
+.dingdan1>span:first-of-type{
+	margin-left: 12vw;
+}

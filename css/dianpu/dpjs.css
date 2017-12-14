@@ -1,0 +1,118 @@
+@import url("../base.css");
+body{
+	background: #F5F5F5;
+}
+.psxx,.services,.sj-info{
+	background: #fff; 	
+	margin-bottom: 2.666666vw;
+	padding: 4.266667vw 4vw 4vw;
+	border-bottom: 1px solid #eee;
+}
+h1.title{
+	color: #000;
+	font-weight: bold;
+	font-size: .50rem;
+	height: 5.6vw;
+	line-height: 5.6vw;
+}
+.psxx .juli{
+	margin-top: 4.266667vw;
+	margin-bottom: 1.866667vw;
+	display: flex;
+	align-items: center;
+	color: #666;
+	font-size: .32em;
+}
+.psxx .juli em{
+	margin-left: 2.666667vw;
+}
+.psxx .price{
+	color: #666666;
+	font-size: .34rem;
+}
+.fmzs{
+	padding: .8vw 1vw;
+	color: #fff;
+	font-size: .32rem;
+	background: #0097ff;
+	border-radius: .533333vw;
+}
+.services>div:first-of-type{
+	margin-top: 4.2666667vw;
+}
+.services>div{
+	margin-bottom: .5vw;
+	display: flex;
+	align-items: center;
+	height: 4.8vw;
+}
+.services>div i{
+	height: 3.733333vw;
+    width: 3.733333vw;
+    font-size: .30rem;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+   	text-align: center;
+    color: #fff;
+    border-radius: .533333vw;
+    margin-right: 1.6vw;
+	line-height: 3.733333vw;
+}
+.shou{
+    background: rgb(112, 188, 70);
+}
+.te{
+	background: rgb(241, 136, 79);
+}
+.jian{
+    background: rgb(240, 115, 115););
+}
+.services .bao,.services .piao{
+	border: 1px solid rgb(153, 153, 153);
+    color: rgb(153, 153, 153);
+    line-height: .30rem;
+}
+.services>div em{
+	flex: 1;
+	color: #666;
+	font-size: .30rem;
+}
+.sj-info>div:first-of-type{
+	margin-top: 4.266667vw;
+}
+.sj-info>div{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4vw 4vw 4vw 0;
+	font-size: .32rem;
+}
+.sj-info>div .left{
+	color: #333;
+	font-weight: bold;
+}
+.sj-info>div .right{
+	max-width: 66.666667vw;
+	color: #666;
+	text-align: right;
+}
+footer{
+	margin-top: 2.666667vw;
+    margin-bottom: 2.666667vw;
+    padding: 4.266667vw 4vw 4vw;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .left{
+	font-size: .46rem;
+	color: #333;
+	font-weight: bold;
+}
+footer a{
+	color: #666;
+	font-size: .32rem;
+}

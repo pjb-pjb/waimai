@@ -1,0 +1,81 @@
+@import url("../base.css");
+.ms{
+	width: 100%;
+	overflow: hidden;
+}
+.ms ul{
+	width: 200%;
+	height: 100%;
+	display: flex;
+}
+.ms li{
+	position: relative;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.ms li a{
+	display: flex;
+	width: 25%;
+	height: 1.64rem;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	/*background: red;*/
+}
+.ms img{
+	width: 1rem;
+	height: 1rem;
+	margin-top: .20rem;
+}
+.ms p{
+	color: #666;
+	font-size: .24rem;
+	text-align: center;
+}
+.ms .btn{
+	margin-top: .28rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.ms .btn a{
+	width: .20rem;
+	height: .04rem;
+	margin-right: .08rem;
+	background: #dddddd;
+}
+.ms .btn .color{
+	background: #b7b7b7;
+}
+.xyh{
+	margin-top: .23rem;
+	padding: 0 2.666667vw;
+}
+.xyh img{
+	 width: 94.666667vw;
+	 height: 23.733333vw;
+}
+.tj{
+	height: 9.6vw;
+	width: 100%;
+	color: #000000;
+	font-size: .3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+.tj span{
+	display: block;
+	width: 5.333333vw;
+	height: .2666667vw;
+	background-color: #999;
+}
+.tj span:first-child{
+	margin-right: 3.466667vw;
+}
+.tj span:nth-child(2){
+	margin-left: 3.466667vw;
+}

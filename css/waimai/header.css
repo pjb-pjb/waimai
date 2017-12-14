@@ -1,0 +1,125 @@
+@import url("../base.css");
+.heard{
+	box-sizing: content-box;
+	width: 100%;
+	height: 2.53rem;
+	background: #0193ff;
+	padding-top:.30rem;
+	/*padding-bottom:.30rem;*/
+}
+.adress{
+	width: 100%;
+	height: .54rem;
+	padding:0 .4rem;
+	display: flex;
+	justify-content: space-between;
+}
+.adress .adress1{
+	width: 4.4rem;
+	height: 100%;
+}
+.adress .tianqi{
+	width: 1.12rem;
+	height: 100%;
+}
+.adress1 i{
+	float: left;
+	display: block;
+	width: .26rem;
+	height: .31rem;
+	color: #ffffff;
+	font-size: .31rem;
+	line-height: .31rem;
+	margin-top: .11rem;
+	margin-right: .20rem;
+}
+.adress1 span{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis ;
+	float: left;
+	height: .34rem;
+	width: 3.55rem;
+	color: #ffffff;
+	font-size: .34rem;
+	margin-top: .1rem;
+	line-height: .34rem;
+}
+.tianqi .du{
+	float: left;
+	margin-right: .10rem;
+	width: .54rem;
+	height: .46rem;
+	margin-top: .02rem;
+}
+.tianqi .du i{
+	margin-bottom: .10rem;
+	display: block;
+	color: #fff;
+	font-size: .22rem;
+	text-align: right;
+	line-height: .22rem;
+}
+.tianqi .du em{
+	display: block;
+	color: #fff;
+	font-size: .18rem;
+	margin-top: .06rem;
+	line-height: .18rem;
+	text-align: right;
+}
+.tianqi img{
+	display: block;
+	float: left;
+	width: .48rem;
+	height: .48rem;
+}
+.sousuo{
+	margin: 0 auto;
+	width: 6.60rem;
+	height: .72rem;
+	background: #ffffff;
+	border-radius: 2px;
+	margin-top: .28rem;
+	/*text-align: center;*/
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	align-items: center;
+}
+.sousuo1{
+	height: .28rem;
+	line-height: normal;
+}
+.sousuo i{
+	/*vertical-align: middle;*/
+	color: #999999;
+	font-size: .28rem;
+	margin-right: .10rem;
+}
+.sousuo span{
+	/*vertical-align: middle;*/
+	color: #999999;
+	font-size: .24rem;
+}
+.nav{
+	margin-top: .32rem;
+	width: 100%;
+	padding: 0 .42rem 0 .41rem;
+	margin-bottom: .20rem;
+}
+.nav1{
+	overflow: hidden;
+	height: 100%;
+	width: auto;
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+	font-size: 0;
+	white-space: nowrap;
+}
+.nav1 a{
+	/*flex-shrink: 0;*/
+	margin-right: .35rem;
+	color: #fff;
+	font-size: .22rem;
+}

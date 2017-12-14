@@ -1,0 +1,184 @@
+@import url("../base.css");
+body{
+	background: #f5f5f5;
+}
+.faxian1{
+	margin-bottom: 2.8vw;
+	margin-top: 11.733333vw;
+}
+.faxian1-1{
+	background: #fff;
+	margin-bottom: 2.8vw;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+}
+.faxian1-1 a{
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 21.333333vw;
+	padding: 0 4vw;
+	border-bottom: 1px solid #ededed;
+}
+.faxian1-1 a:first-child{
+	position: absolute;
+	align-items: normal;
+	height: 42.666667vw;
+	padding: 5.866667vw 2.933333vw 1.6vw 4.266667vw;
+}
+.faxian1-1 .title{
+	margin-bottom: 1.6vw;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: .46rem;
+}
+.faxian1-1 .tips{
+	color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: .30rem;
+}
+.faxian1-1 a:nth-child(2),.faxian1-1 a:nth-child(3){
+	margin-left: 50%;
+}
+.faxian1-1 a img{
+	width: 12vw;
+}
+.faxian1-1 a:first-child img{
+	align-self: flex-end;
+    width: 20vw;
+}
+.faxian1-1 a:first-child,.faxian1-1 a:nth-child(4){
+	border-right: 1px solid #ededed;
+}
+.faxian1-2{
+	border-top: 1px solid #ededed;
+}
+.faxian1-2 img{
+	width: 100%;
+}
+.tttj{
+	margin-bottom: 2.8vw;
+    background: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: .133333vw solid #eee;
+}
+.tttj .title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 5.2vw;
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+	font-size: .60rem;
+}
+.tttj .line{
+	display: inline-block;
+    margin: 2.133333vw .933333vw 1.733333vw;
+    border: 1px solid #333;
+    width: 4vw;
+    height: 0;
+    position: relative;
+}
+.tttj .line:after {
+    position: absolute;
+    top: -.76vw;
+    content: "";
+    background: #333;
+    height: 1.4vw;
+    width: 1.4vw;
+    border-radius: 1.4vw;
+}
+.line.left:after {
+    right: -.666667vw;
+}
+.line.right:after {
+    left: -.666667vw;
+}
+.tttj .title em{
+	display: flex;
+	align-items: center;
+	position: relative;
+    top: .533333vw;
+    margin: 0 0.5vw;
+}
+.tttj .title em i{
+	margin-right: 0.5vw;
+	font-size: .46rem;
+	color: #ff6000;
+}
+
+.tttj .title1{
+	color: #999;
+    text-align: center;
+    padding-bottom: 2.133333vw;
+    font-size: .28rem;
+}
+.tttj .list{
+	padding: 3.2vw 0 4vw 4vw;
+	display: flex;
+}
+.tttj .list a{
+	display: inline-block;
+    position: relative;
+    width: 29.6vw;
+    margin-right: 1.6vw;
+}
+.tttj .list a img{
+    height: 29.333333vw;
+    margin-bottom: 2.533333vw;
+}
+.tttj .list .name{
+	color: #333;
+    margin-bottom: 1.333333vw;
+    font-size: .40rem;
+}
+.tttj .info{
+	height: 6.4vw;
+	display: flex;
+	align-items: center;
+}
+.tttj .info span{
+	font-size: .32rem;
+	color: #ff5339;
+	display: flex;
+	/*align-items: center;*/
+	align-items: flex-end;
+	margin-right: .933333vw;;
+}
+.tttj .info span em{
+	font-size: .40rem;
+}
+.tttj .info i{
+	color: #aaa;
+	text-decoration: line-through;
+	font-size: .32rem;
+}
+.discount{
+	position: absolute;
+    top: 0;
+    left: 0;
+    font-size: .30rem;
+    color: #fff;
+    background: #413d3c;
+    padding: .666667vw;
+}
+.more{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #999;
+    text-align: center;
+    padding: 4vw 0 4.8vw;
+    font-size: .32rem;
+    
+}
+.more i{
+	/*margin-left: 1.466667vw;*/
+}

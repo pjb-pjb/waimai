@@ -1,0 +1,26 @@
+﻿@font-face {
+  font-family: 'iconfont';  /* project id 500011 */
+  src: url('https://at.alicdn.com/t/font_500011_8mrczvah0lhumcxr.eot');
+  src: url('https://at.alicdn.com/t/font_500011_8mrczvah0lhumcxr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_500011_8mrczvah0lhumcxr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_500011_8mrczvah0lhumcxr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_500011_8mrczvah0lhumcxr.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: "iconfont";
+}
+*{
+	font-family: "微软雅黑","宋体",sans-serif,"苹方";
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-style: normal;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #FFFFFF;
+}

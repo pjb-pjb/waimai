@@ -1,0 +1,200 @@
+@import url("../base.css");
+.zonghe{
+	padding: 4vw;
+	display: flex;
+	/*align-items: center;*/
+	border-bottom: 1px solid #eee;
+}
+.zonghe .left{
+	padding-right: 4vw;
+	border-right: 1px solid #ddd;
+	text-align: center;
+}
+.zonghe .left span{
+	display: block;
+	color: #ff6000;
+	font-size: .60rem;
+	font-weight: bold;
+}
+.zonghe .left i{
+	margin: .5vw 0;
+	display: block;
+	font-size: .32rem;
+	color: #666;
+}
+.zonghe .left p{
+	display: block;
+	font-size: .26rem;
+	color: #999;
+}
+.zonghe .right{
+	justify-content: space-between;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	/*align-items: center;*/
+	padding-left: 5vw;
+}
+.zonghe .right>div{
+	display: flex;
+	align-items: center;
+}
+.zonghe .right span{
+	font-size: .32rem;
+	color: #666;
+}
+.zonghe .right .xin{
+	position: relative;
+}
+.zonghe .right i{
+	display: block;
+	font-size: .28rem;
+	color: #eeeeee;
+	padding-left: 2.666667vw;
+}
+.zonghe .right .xin .one{
+	color: #FF6000;
+	width: 20%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.zonghe .right .xin .tow{
+	color: #FF6000;
+	width: 40%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.zonghe .right .xin .three{
+	color: #FF6000;
+	width: 60%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.zonghe .right .xin .four{
+	color: #FF6000;
+	width: 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.zonghe .right .xin .five{
+	color: #FF6000;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.zonghe .right em{
+	color: #f60;
+	font-size: .24rem;
+	margin-left: 2.666667vw;
+}
+.pj-nav{
+	padding: 2.666667vw 3.2vw 2.666667vw;
+	width: 100%;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+.pj-nav li{
+    border-radius: .533333vw;
+	float: left;
+	padding: 0 2.4vw;
+	height: 7.466667vw;
+	line-height: 7.466667vw;
+	color: #6d7885;
+    background-color: #ebf5ff;
+    font-size: .32rem;
+    text-align: center;
+    margin: .933333vw;
+}
+.pj-nav .xuanzhong{
+	color: #fff;
+	background: #0097ff;
+}
+.yhpj{
+	padding: 4vw 3.2vw;
+	border-bottom: 1px solid #eee;
+}
+.yhpj .top{
+	display: flex;
+}
+.yhpj .top img{
+	width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+.yhpj .top .info{
+	margin-left: 4vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.yhpj .info .info1{
+	display: flex;
+	align-items: center;
+}
+.yhpj .info1 .name{
+	font-size: .38rem;
+	color: #333;
+}
+.yhpj .info1 .time{
+	font-size: .22rem;
+	color: #666;
+	margin-left: 1.6vw;
+}
+.xin{
+	position: relative;
+}
+.xin i{
+	display: block;
+	font-size: .28rem;
+	color: #eeeeee;
+}
+.xin i:last-child{
+	color: #FF6000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.yhpj .text{
+	color: #333333;
+	font-size: .36rem;
+	margin: 2.133333vw 0 2.1333333vw 12vw;
+}
+.yhpj .img{
+	margin-left: 12vw;
+	display: flex;
+}
+.yhpj .img img{
+	display: block;
+	margin: 1.333333vw;
+	width: 18.933333vw;
+	height: 18.933333vw;
+}
+.yhpj .sw-name{
+	display: flex;
+	margin-left: 12vw;
+}
+.yhpj .sw-name span{
+	font-size: .30rem;
+	display: block;
+	color: #6d7885;
+    border: 1px solid #eee;
+    padding: 1.066667vw 2.666667vw;
+    margin: .933333vw;
+    border-radius: .533333vw;
+    width: 20vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

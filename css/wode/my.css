@@ -1,0 +1,151 @@
+@import url("../base.css");
+.info{
+	width: 100%;
+	background-image: linear-gradient(90deg,#0af,#0085ff);
+	margin-top: 11.5vw;
+}
+.info1{
+	width: 100%;
+	padding: 6.666667vw 4vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+.info1 .left{
+	display: flex;
+	align-items: center;
+}
+.info1 .left .img{
+	width: 16vw;
+	height: 16vw;
+	border-radius: 50%;
+	background: #fff;
+}
+.info1 .left .name{
+	margin-left: 4.8vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.info1 .left .zh-name{
+	display: flex;
+	align-items: center;
+	color: #fff;
+	font-size: .46rem;
+	margin-bottom: 2.133333vw;
+}
+.info1 .left .tel-num{
+	display: flex;
+	align-items: flex-start;
+	color: #fff;
+}
+.info1 .left .tel-num i{
+	font-size: .32rem;
+}
+.info1 .left .tel-num em{
+	font-size: .26rem;
+}
+.info1>i{
+	color: #fff;
+	font-size: .28rem;
+}
+.yh{
+	height: 22.4vw;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	background: #FFFfff;
+	display: flex;
+}
+.yh .left{
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-right: 1px solid #ddd;
+}
+.yh .right{
+	align-items: center;
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	justify-content: center;
+}
+.yh .left .num{
+	color: #ff5f3e;
+	font-size: .32rem;
+}
+.yh .left .num i{
+	font-weight: bold;
+	font-size: .68rem;
+}
+.yh .left  em{
+	font-weight: bold;
+	font-size: .38rem;
+	color: #666666;
+	margin-top: 1.333333vw;
+}
+.yh .right .num{
+	color: #6ac20b;
+	font-size: .32rem;
+}
+.yh .right .num i{
+	font-weight: bold;
+	font-size: .68rem;
+}
+.yh .right  em{
+	margin-top: 1.333333vw;
+	font-weight: bold;
+	font-size: .38rem;
+	color: #666666;
+}
+.adress{
+	margin-top: 2.666667vw;
+	border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    /*line-height: 4.533333vw;*/
+    background: #fff;
+    height: 1.40rem;
+    display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+}
+ body{
+ 	background: #f5f5f5;
+ }
+.adress .left{
+	display: flex;
+	align-items: center;
+}
+.adress .left i{
+	margin-left: 4vw;
+	font-size: .56rem;
+	color: #4aa5f0;
+	margin-right: 2.666667vw;
+}
+.adress .left span{
+	color: #333333;
+	font-size: .48rem;
+}
+.adress>i{
+	margin-right: 2.666667vw;
+	color: #bbbbbb;
+	font-size: .28rem;
+}
+.list .adress1{
+	margin-top: 0;
+	border-top: none;
+}
+.list .adress2{
+	position: relative;
+	border-bottom-color: #fff;
+}
+.list .line{
+	position: absolute;
+	height: 1px;
+	width: 88.4vw;
+	background: #eeeeee;
+	bottom: -1px;
+	right:0 ;
+}

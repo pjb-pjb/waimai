@@ -1,0 +1,79 @@
+{
+	"index.html": {
+		"resources": [
+			"img/ms/ms3.webp",
+			"css/\u0016V/biaoqian.css",
+			"js/new_file.js",
+			"css/\u0016V/ms.css",
+			"img/ms/ms2.webp",
+			"js/jquery-1.11.0.js",
+			"img/442ec3a18ba42c024cc3e14d1998bpng.webp",
+			"img/tj/f6025cb1a38f61114a6a1bf8a75a0png.webp",
+			"css/\u0016V/dian.css",
+			"css/\u0016V/header.css",
+			"js/rem.js",
+			"js/jquery.touchSwipe.min.js",
+			"css/\u0016V/biaoqian.css",
+			"css/\u0016V/ms.css",
+			"css/\u0016V/dian.css",
+			"css/\u0016V/header.css",
+			"�U.html",
+			"css/外卖/biaoqian.css",
+			"css/外卖/ms.css",
+			"css/外卖/dian.css",
+			"css/外卖/header.css",
+			"css/waimai/dian.css",
+			"css/base.css",
+			"css/waimai/ms.css",
+			"css/waimai/header.css",
+			"css/waimai/biaoqian.css",
+			"dingdan.html",
+			"wode.html"
+		],
+		"refer": [
+			"dingdan.html",
+			"wode.html"
+		]
+	},
+	"wode.html": {
+		"resources": [
+			"css/fixed.css",
+			"css/wode/my.css",
+			"dingdan.html",
+			"img/QQ图片20171207235139.jpg",
+			"zh.html",
+			"img/touxiang.png",
+			"js/rem1.js",
+			"index.html"
+		],
+		"refer": [
+			"dingdan.html",
+			"zh.html",
+			"index.html"
+		]
+	},
+	"dingdan.html": {
+		"resources": [
+			"css/fixed.css",
+			"wode.html",
+			"js/rem1.js",
+			"css/dingdan/heard.css",
+			"img/dingdan/1.webp",
+			"index.html"
+		],
+		"refer": [
+			"wode.html",
+			"index.html"
+		]
+	},
+	"zh.html": {
+		"resources": [
+			"wode.html",
+			"css/wode/zhxi.css",
+			"css/waimai/biaoqian.css"
+		],
+		"refer": [
+			"wode.html"
+		]
+	}
+}

@@ -1,0 +1,83 @@
+@import url("../base.css");
+body{
+	background: #F5F5F5;
+	overflow: hidden;
+}
+.touxiang{
+	width: 1005;
+	margin-top: 11.733333vw;
+	padding: 2.666667vw 3.733333vw;
+	display: flex;
+	justify-content: space-between;
+	background: #fff;
+	align-items: center;
+} 
+b{
+	color: #333;
+	font-size: .46rem;
+	font-weight: bold;
+}
+.touxiang .right{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.touxiang .right img{
+	height: 13.333333vw;
+    width: 13.333333vw;
+    border-radius: 50%;
+}
+.jt{
+	font-size: .2rem;
+	color: #aeaeae;
+	margin-left: 1vw;
+}
+.all{
+	padding: 3.733333vw;
+	background: #fff;
+	border-top: 1px solid #eee;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+em{
+	font-size: .42rem;
+	color: #666;
+	font-weight: bold;
+}
+h2{
+	margin: 4.266667vw 0 1.866667vw 3.733333vw;
+	color: #999;
+	font-size: .38rem;
+	font-weight: normal;
+}
+b i{
+	color: #0b95fa;
+	font-size: .50rem;
+	margin-right: 1vw;
+}
+.sz .mima{
+	color: #333;
+	font-size: .46rem;
+}
+.sz .right{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-size: .46rem;
+	color: #0097ff;
+}
+.btn{
+	display: block;
+	width:100%;
+	color: #ff5339;
+	background: #fff;
+	border: none;
+	margin: 5.333333vw 0;
+	padding: 3.733333vw 0;
+	font-size: .46rem;
+	font-weight: bold;
+}
+.btn:focus{
+	outline: none;
+}
